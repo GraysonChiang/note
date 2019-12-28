@@ -6,16 +6,10 @@ module.exports = {
     ],
     base: '/note/',
     description: '臺北大學 商學院企業管理碩士班 107',
+    plugins: ['vuepress-plugin-export'],
     markdown: {
         config: md => {
             md.use(require('markdown-it-katex'));
-        }
-    },
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@accounting': 'src/accounting/images'
-            }
         }
     },
     themeConfig: {
