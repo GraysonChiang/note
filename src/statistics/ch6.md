@@ -66,3 +66,28 @@ $$ Var(X) =  \lambda $$
 
 ## 負二項分配
 
+@flowstart
+st=>start: 开始|past:>https://github.com/tomieric/vuepress-theme-track.git[blank]
+e=>end: 发布|future:>https://kuaizi-co.github.io/blog/
+op1=>operation: 安装vuepress-theme-track|past
+op2=>operation: 手动 deploy|current
+sub1=>subroutine: 设置.vuepress/config.js主题|invalid
+cond=>condition: 写文章?|approved:>https://kuaizi-co.github.io/blog/
+c2=>condition: 是否自动发布|rejected
+io=>inputoutput: Git push...|future
+
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e
+@flowend
+
+
+@flowstart
+process=>operation: Operation
+e=>end: End
+
+process->e
+@flowend
+
