@@ -37,8 +37,7 @@ module.exports = {
                     'src/management/ch1',
                     'src/management/ch2',
                     'src/management/ch3',
-                    'src/management/ch4',
-                    'src/management/ch5',
+                    'src/management/ch6',
                     'src/management/ch7',
                     'src/management/ch8'
                 ]
