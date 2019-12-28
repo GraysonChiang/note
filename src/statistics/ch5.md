@@ -55,9 +55,10 @@ $$ f(y|x) = h(y) $$
 
 #### 聯合機率分配
 * 特性
+    * 式中的範圍 $a \leq x \leq  b$ , $c \leq y \leq  d$ ，分別表示隨機變數 $X$ 與 $Y$ 之範圍
 $$f(x,y) \geq 0$$
 $$ \int_a^b \int_c^d f(x,y) \times dy \times dx = 1 $$
-* 式中的範圍 $a \leq x \leq  b$ , $c \leq y \leq  d$ ，分別表示隨機變數 $X$ 與 $Y$ 之範圍
+
 
 #### 邊際機率分配
 $$ g(x)  = \int_y f(x,y) \times dy  $$
