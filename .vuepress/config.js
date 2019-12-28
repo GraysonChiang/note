@@ -5,7 +5,7 @@ module.exports = {
         ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'}],
     ],
     base: '/note/',
-    description: '臺北大學 商學院碩士班 107',
+    description: '臺北大學 商學院企業管理碩士班 107',
     markdown: {
         config: md => {
             md.use(require('markdown-it-katex'));
@@ -16,7 +16,7 @@ module.exports = {
             {text: 'Github', link: 'https://github.com/GraysonChiang/note'}
         ],
         sidebar: [
-            '/src/SPSS/SPSS',
+            '/src/researchMethod/researchMethod',
             {
                 title: '會計',
                 children: [
