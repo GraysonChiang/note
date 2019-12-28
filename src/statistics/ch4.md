@@ -43,8 +43,11 @@ $$ P(E) \approx { n \over N }$$
 ### 事件機率的性質
 * 事件機率的基本性質
 $$ P(E) = \sum_{e_i \in E} P(e_i) $$ 
+$$ \downarrow $$
 $$ P(S) = \sum_{e_i \in S} P(e_i) = 1$$ 
+$$ \downarrow $$
 $$ P( \emptyset ) = 0 $$ 
+$$ \downarrow $$
 $$ 0 \leq  P(E) \leq 1 $$ 
 
 ### 事件的運算＆機率法則
@@ -58,7 +61,7 @@ $$ 0 \leq  P(E) \leq 1 $$
 
      * 餘事件法則：若 $A$ 為任一事件，$A^c$ 為其餘事件，則
 		$$P(A) = 1 - P(A^c)$$
-		$$ 或 $$
+		$$ or $$
 		$$P(A^c) = 1 - P(A)$$
 
 <br>
@@ -74,7 +77,7 @@ $$ P(A \bigcap B) =  { P(A) \times P(B|A)  }$$
 ### 獨立事件
 * 獨立事件：設 $A、Ｂ$ 為任意兩事件，若 
 $$ P(A|B) =  P(A) $$
-$$ 或者 $$
+$$ or $$
 $$ P(B|A) =  P(B) $$
 則 $A$ 與 $B$ 兩事件獨立，否則即為`相依`
 
