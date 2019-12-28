@@ -4,10 +4,11 @@
         "markdown-it-katex": "^2.0.3",
         "markdown-it-mathjax": "^2.0.0",
         "vuepress": "^0.14.9",
-        "vuepress-plugin-mathjax": "^1.2.4",
-        "vuepress-plugin-flowchart": "1.4.3"
+        "vuepress-plugin-mathjax": "^1.2.4"
     },
     "scripts": {
         "build": "vuepress build ."
+    },
+    "devDependencies": {
     }
 }
