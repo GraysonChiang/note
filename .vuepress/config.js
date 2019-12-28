@@ -16,8 +16,9 @@ module.exports = {
             {text: 'Github', link: 'https://github.com/GraysonChiang/note'}
         ],
         sidebar: [
+            '/src/researchMethod/researchMethod',
             {
-                title: '會計',
+                title: '會計學',
                 children: [
                     'src/accounting/ch08',
                     'src/accounting/ch09',
@@ -59,7 +60,6 @@ module.exports = {
                     'src/economic/economic',
                 ]
             },
-            '/src/researchMethod/researchMethod',
             {
                 title: '統計學',
                 children: [
