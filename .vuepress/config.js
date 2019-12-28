@@ -20,15 +20,15 @@ module.exports = {
             {
                 title: '會計',
                 children: [
-                    'src/account/ch08',
-                    'src/account/ch09',
-                    'src/account/ch10',
-                    'src/account/ch11',
-                    'src/account/ch12',
-                    'src/account/ch13',
-                    'src/account/ch15',
-                    'src/account/ch16',
-                    'src/account/ch17',
+                    'src/accounting/ch08',
+                    'src/accounting/ch09',
+                    'src/accounting/ch10',
+                    'src/accounting/ch11',
+                    'src/accounting/ch12',
+                    'src/accounting/ch13',
+                    'src/accounting/ch15',
+                    'src/accounting/ch16',
+                    'src/accounting/ch17',
                 ]
             },
             {
@@ -37,6 +37,10 @@ module.exports = {
                     'src/management/ch1',
                     'src/management/ch2',
                     'src/management/ch3',
+                    'src/management/ch4',
+                    'src/management/ch5',
+                    'src/management/ch7',
+                    'src/management/ch8'
                 ]
             },
             {
