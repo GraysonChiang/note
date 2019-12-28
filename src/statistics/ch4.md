@@ -51,15 +51,15 @@ $$ 0 \leq  P(E) \leq 1 $$
   * 聯合事件與餘事件
   * 事件的機率法則
      * 加法法則：若 $A、B$ 為任意兩件事，則
-$$P(A \bigcup B) = P(A) + P(B) - P(A \bigcap B)$$
+		$$P(A \bigcup B) = P(A) + P(B) - P(A \bigcap B)$$
 
      * 互斥事件的加法法則：若 $A、B$ 為互斥事件，則
-$$P(A \bigcup B) = P(A) + P(B)$$
+		$$P(A \bigcup B) = P(A) + P(B)$$
 
      * 餘事件法則：若 $A$ 為任一事件，$A^c$ 為其餘事件，則
-$$P(A) = 1 - P(A^c)$$
-$$ 或 $$
-$$P(A^c) = 1 - P(A)$$
+		$$P(A) = 1 - P(A^c)$$
+		$$ 或 $$
+		$$P(A^c) = 1 - P(A)$$
 
 <br>
 
