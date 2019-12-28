@@ -62,13 +62,6 @@ $$ Var(X) =  \lambda $$
 
 *  與二項分配的關係
 
-@flowstart
-st=>start: Start
-e=>end: End
-
-st->e
-@flowend
-
 <br>
 
 ## 負二項分配
