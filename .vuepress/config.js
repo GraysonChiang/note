@@ -14,7 +14,7 @@ module.exports = {
     configureWebpack: {
         resolve: {
             alias: {
-                '@accounting': 'accounting/images'
+                '@accounting': 'src/accounting/images'
             }
         }
     },
