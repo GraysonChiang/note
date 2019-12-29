@@ -43,7 +43,7 @@ $$ Var(X) = n \times P(1-P) $$
     * 從一含有 $N$ 物的有限母體中，採不放回抽樣抽出大小為 $n$ 的隨機樣本
     * $N$ 物中有 $S$ 個屬成功類，另 $N-S$ 個屬失敗類
 * 公式
-    * 式中的符號 $N$ , $S$ , $n$ , $x$ 皆同於前文所述，另外 $x$ 的範圍是從 $Max \lbrace 0,n-(N-S) \rbrace $ 至 $Min \lbrace n,S \rbrace$
+    * 式中的符號 $N$ , $S$ , $n$ , $x$ 皆同於前文所述，另外 $x$ 的範圍是從 $Max \lbrace 0,n-(N-S) \rbrace$ 至 $Min \lbrace n,S \rbrace$
 $$ P(X = x) =  { c_x^s c_{n-x}^{N-s}   \over  c_n^N }$$
 
 * 期望值：令 $X$ 代表超幾何隨機變數
