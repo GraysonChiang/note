@@ -39,13 +39,13 @@ module.exports = {
             {
                 title: '行銷管理',
                 children: [
-                    '/src/marketing/',
-                    'src/marketing/ch1',
-                    'src/marketing/ch2',
-                    'src/marketing/ch5',
-                    'src/marketing/ch6',
-                    'src/marketing/ch7',
-                    'src/marketing/ch9',
+                    '/src/marketing/README.md',
+                    'src/marketing/ch1.md',
+                    'src/marketing/ch2.md',
+                    'src/marketing/ch5.md',
+                    'src/marketing/ch6.md',
+                    'src/marketing/ch7.md',
+                    'src/marketing/ch9.md',
                 ]
             },
             {
