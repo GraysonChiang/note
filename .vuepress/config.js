@@ -41,11 +41,11 @@ module.exports = {
                 children: [
                     '/src/marketing/',
                     'src/marketing/ch1.md',
-                    'src/marketing/ch22.md',
-                    'src/marketing/ch55.md',
-                    'src/marketing/ch66.md',
-                    'src/marketing/ch77.md',
-                    'src/marketing/ch99.md',
+                    'src/marketing/ch2.md',
+                    'src/marketing/ch5.md',
+                    'src/marketing/ch6.md',
+                    'src/marketing/ch7.md',
+                    'src/marketing/ch9.md',
                 ]
             },
             {
