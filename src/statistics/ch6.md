@@ -49,7 +49,7 @@ $$Var(X) = n \times P(1-P)$$
 $$P(X = x) =  { c_x^s c_{n-x}^{N-s}   \over  c_n^N }$$
 
 * 期望值：令 $X$ 代表超幾何隨機變數
-    $$E(X) = n \times p$$
+$$E(X) = n \times p$$
 
 * 變異數：令 $X$ 代表超幾何隨機變數
 $$Var(X) = { N - n \over N-1} np(1-p)$$

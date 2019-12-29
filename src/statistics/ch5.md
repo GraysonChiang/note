@@ -9,7 +9,7 @@
 ### 間斷機率分配
 * 間斷隨機變數 $X$ 之機率分配，指將各個不同的 $x$ 值與其對應之機率值逐一列出的表，有時亦可以公視來取代其詳細的表列
 * 間斷隨機變數 $X$ 之機率分配可以函數表示：
-$$ f(x_i) = P(X = x_i) $$
+$$f(x_i) = P(X = x_i)$$
 * 其中 $f(x_i)$ 必須滿足
     * 對於 $X$ 中的每一 $x_i$ ， $0 \leq f(x_i) \leq 1$
     * $\sum_{e_i \in E}^k {f(x_i) = 1}$ ， $X$ 可能值為 $x_i$ , $i=1,2,3...k$
@@ -39,15 +39,15 @@ $$ f(x_i) = P(X = x_i) $$
 
 #### 條件機率分配
 * 設有 $X$ 與 $Y$ 兩個隨機變數之聯合分配，且其邊際機率分配分別為 $g(x)$  與 $h(y)$ 。在給定 $X = x$ 下， $Y$ 的`條件機率分配` 為：
-$$ f(y|x) = { f(x,y) \over g(x) }, g(x) > 0 $$ 
+$$f(y|x) = { f(x,y) \over g(x) }, g(x) > 0$$
 同理，在給定 $Y = y$ 下， $X$ 條件分配為：
-$$ f(x|y) = { f(x,y) \over h(y) }, h(y) > 0 $$ 
+$$f(x|y) = { f(x,y) \over h(y) }, h(y) > 0$$
 
 #### 獨立的隨機變數
 * 設 $X$ 與 $Y$ 為任意兩個隨機變數，其聯合分配與邊際機率分配分別為 $f(x,y)$ , $g(x)$ , $h(y)$，若 $X$ 的條件分配等於其邊際機率分配，即：
-$$ f(x|y) = g(x) $$ 
+$$f(x|y) = g(x)$$
 則稱將變數 $X$ 與 $Y$ 互為獨立。同理，若 $Y$ 的條件分配等於其邊際機率分配，即
-$$ f(y|x) = h(y) $$ 
+$$f(y|x) = h(y)$$
 則稱隨機變數 $X$ 與 $Y$ 互為獨立
 * 兩獨立變數的性質：設 $X$ 與 $Y$ 為獨立的兩個隨機變數，則 $f(x,y) = g(x) \times h(y)$
 
@@ -57,16 +57,16 @@ $$ f(y|x) = h(y) $$
 * 特性
     * 式中的範圍 $a \leq x \leq  b$ , $c \leq y \leq  d$ ，分別表示隨機變數 $X$ 與 $Y$ 之範圍
 $$f(x,y) \geq 0$$
-$$ \int_a^b \int_c^d f(x,y) \times dy \times dx = 1 $$
+$$\int_a^b \int_c^d f(x,y) \times dy \times dx = 1$$
 
 
 #### 邊際機率分配
-$$ g(x)  = \int_y f(x,y) \times dy  $$
-$$ h(y)  = \int_x f(x,y) \times dx  $$
+$$g(x)  = \int_y f(x,y) \times dy  $$
+$$h(y)  = \int_x f(x,y) \times dx  $$
 
 #### 條件機率&分配獨立性
 * 設 $X$ 與 $Y$ 為兩個獨立連續隨機變數，則
-$$ f(x|y) = g(x) \times h(y) $$ 
+$$f(x|y) = g(x) \times h(y)$$
 
 <br>
 <br>
@@ -75,31 +75,31 @@ $$ f(x|y) = g(x) \times h(y) $$
 ### 間斷/連續機率分配的期望值
 * `間斷隨機變數` $X$ 的平均數或期望值
     * 式中 $x$ 乃在 $X$ 之可能值 $S(X)$ 的範圍內，而 $f(x)$ 則為 $X$ 之機率分配
-    $$ u = E(X) = \sum_{x\in S(X)} x \times f(x) $$
+    $$u = E(X) = \sum_{x\in S(X)} x \times f(x)$$
 
 * `間斷隨機變數函數`的期望值
     * 令 $X$ 為間斷隨機變數，其機率分配為 $f(x)$ ，則 X 之函數 g(X) 的期望值為：
-    $$ E[g(X)] = \sum_{x \in S(X)} g(x) \times f(x) $$
+    $$E[g(X)] = \sum_{x \in S(X)} g(x) \times f(x)$$
     
 * `連續隨機變數`的期望值
     * 設 $X$ 與 $Y$ 為兩個`連續隨機變數`，則期望值為：
         * 式中 $x$ 屬於 $X$ 的範圍值內， $y$ 屬於 $Y$ 的範圍值內，且 $g(x)$ 為 $x$ 之機率分配， $h(y)$ 則為 $y$ 之機率分配
-    $$ u = E(X) = \int_x \int_y x \times f(x,y)  \times dydx = \int_x x \times g(x) \times dx $$
-    $$ u = E(Y) = \int_y \int_x y \times f(x,y)  \times dxdy = \int_y y \times h(y) \times dy $$
+    $$u = E(X) = \int_x \int_y x \times f(x,y)  \times dydx = \int_x x \times g(x) \times dx$$
+    $$u = E(Y) = \int_y \int_x y \times f(x,y)  \times dxdy = \int_y y \times h(y) \times dy$$
 
 ### 聯合機率分配的期望值
 * 令 $X$ 為間斷隨機變數，其聯合機率分配為 $f(x,y)$，則隨機變數 $g(x,y)$ 的期望值定義為：
-$$ E[g(X,Y)] = \sum_{x \in S(X)}  \sum_{y \in S(Y)} g(x,y) \times f(x,y) $$
+$$E[g(X,Y)] = \sum_{x \in S(X)}  \sum_{y \in S(Y)} g(x,y) \times f(x,y)$$
     
 ### 間斷/連續 機率分配 變異數
 * `隨機變數`的變異數
     * 令 $X$ 為一`間斷隨機變數`，其機率分配為 $f(x)$，則 $X$ 的變異數為：
-    $$ \sigma^2 = E[(X- \mu )^2] = \sum_{x \in S(X)} (x - \mu)^2 \times f(x) $$
+    $$\sigma^2 = E[(X- \mu )^2] = \sum_{x \in S(X)} (x - \mu)^2 \times f(x)$$
     
 
 ### 切比雪夫定理
 * 若隨機變數 $X$ 具有平均數 $\mu$ ，變異數 $\sigma^2$ ，則下式成立：
-$$ P(|X- \mu| < k \sigma) \geq 1 - { 1 \over k^2 } , k > 1 $$
+$$P(|X- \mu| < k \sigma) \geq 1 - { 1 \over k^2 } , k > 1$$
 
 <br>
 <br>
@@ -108,24 +108,24 @@ $$ P(|X- \mu| < k \sigma) \geq 1 - { 1 \over k^2 } , k > 1 $$
 ### 期望值的性質
 * 兩隨機變數`和`與`差`的期望值
     * 設 $X$ 與 $Y$ 為任意兩個隨機變數，其聯合分配為 $f(x,y)$ ，則 $X$ 與 $Y$ 之`和`及`差`的期望值為：
-    $$ E(X+Y) = E(X) + E(Y)$$
-    $$ E(X-Y) = E(X) - E(Y)$$
+    $$E(X+Y) = E(X) + E(Y)$$
+    $$E(X-Y) = E(X) - E(Y)$$
     
 * 兩隨機變數`乘積`的期望值
     * 設兩個隨機變數 $X$ 與 $Y$ 互為獨立，則：
-    $$ E(XY) = E(X) \times E(Y)$$
+    $$E(XY) = E(X) \times E(Y)$$
     
 ### 變異數的性質
 * 兩隨機變數`和`與`差`的變異數性值
     * 設 $X$ 與 $Y$ 為任意兩個隨機變數，且互為獨立，則：
-    $$ Var(X+Y) = Var(X) + Var(Y)$$
-    $$ Var(X-Y) = Var(X) - Var(Y)$$
+    $$Var(X+Y) = Var(X) + Var(Y)$$
+    $$Var(X-Y) = Var(X) - Var(Y)$$
     
 * 兩個以上隨機變數`和`的變異數性質
    * 設 $X_1$ , $X_2$ , $X_3$ ... $X_n$ 為任意 $n$ 個隨機變數 ，則
-   $$ E(X_1 + X_2+ ... + X_n) = E(X_1) + E(X_2) + ... + E(X_n)  $$
+   $$E(X_1 + X_2+ ... + X_n) = E(X_1) + E(X_2) + ... + E(X_n)$$
    
    * 另外，若 $X_i$ 皆互相獨立，則
-   $$ Var(X_1 + X_2+ ... + X_n) = Var(X_1) + Var(X_2) + ... + Var(X_n) $$
+   $$Var(X_1 + X_2+ ... + X_n) = Var(X_1) + Var(X_2) + ... + Var(X_n)$$
     
 ### 共變數
