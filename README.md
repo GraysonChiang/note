@@ -23,15 +23,14 @@ vuepress build
 ```
 
 ## Deploying
-[deploying](https://v1.vuepress.vuejs.org/guide/deploy.html#github-pages)
+* [deploying](https://v1.vuepress.vuejs.org/guide/deploy.html#github-pages)
 
 ## Plugins
-[vuepress-plugin-mathjax](https://vuepress.github.io/zh/plugins/mathjax/#%E5%AE%89%E8%A3%85)
+* [vuepress-plugin-mathjax](https://vuepress.github.io/zh/plugins/mathjax/#%E5%AE%89%E8%A3%85)
 
 
 ## Recerence
-
-[official](https://v1.vuepress.vuejs.org/)
-[Community](https://vuepress.github.io/zh/)
-[Awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
-[VuePress 搭建博客的那些坑](https://tomben.me/posts/2019/11/04/set-up-a-blog-with-vuepress.html)
+* [official](https://v1.vuepress.vuejs.org/)
+* [Community](https://vuepress.github.io/zh/)
+* [Awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+* [VuePress 搭建博客的那些坑](https://tomben.me/posts/2019/11/04/set-up-a-blog-with-vuepress.html)
