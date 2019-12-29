@@ -11,6 +11,9 @@ module.exports = {
             md.use(require('markdown-it-katex'));
         }
     },
+    plugins: [
+    'flowchart'
+    ],
     themeConfig: {
         nav: [
             {text: 'Github', link: 'https://github.com/GraysonChiang/note'}
