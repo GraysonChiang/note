@@ -42,20 +42,13 @@
 * 變異係數 (CV)
     * 用途：對於不同單位資料之比較
     * 公式
-    
     $$C_v = {\sigma \over \mu }$$
 
-    <br>
-
     * 樣本公式
-
-    $$C_v = {S \over\overline{X} } \times 100 $$
-    
-    <br>
+    $$C_v = {S \over\overline{X} } \times 100$$
     
     * 母體公式
-    
-    $$C_v = {\sigma \over \mu } \times 100 $$
+    $$C_v = {\sigma \over \mu } \times 100$$
 
     * 變數
         * $S$：樣本標準差 
@@ -84,28 +77,23 @@
 #### 1. 變異數
 
 * 公式
+$$F = MSB / MSW$$
 
-$$ F = MSB / MSW $$
 <br>
 
 * `MS` 代表均方  
     * 總變異 = 組間變異 + 隨機變異
 * 組間變異(SSB)：又稱處理總變異
 
-    $$ SSB = \sum_{i=1}^{k}n_{i}(\overline{X_{i}} - \overline{\overline{X}})^2 $$
+$$SSB = \sum_{i=1}^{k}n_{i}(\overline{X_{i}} - \overline{\overline{X}})^2$$
     
     
-    <br>    
 * 組內變異(SSW)：是同一組的數值間計算變異
     * 每個數值減去平均值, 然後平方, 再相加, 就是這一組的變異
-    
-    $$ SSW = \sum_{i=1}^{k}\sum_{j=1}^{n}(X_{ij} - \overline{X_i})^2 $$
+    $$SSW = \sum_{i=1}^{k}\sum_{j=1}^{n}(X_{ij} - \overline{X_i})^2$$
 
-    <br>
-    
 * 總變異(SST)
-
-$$ SST = \sum_{i=1}^{k}\sum_{j=1}^{n}(X_{ij} - \overline{\overline{X}})^2 $$
+$$SST = \sum_{i=1}^{k}\sum_{j=1}^{n}(X_{ij} - \overline{\overline{X}})^2$$
 
 <br>
 
