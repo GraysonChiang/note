@@ -36,18 +36,18 @@ module.exports = {
                     'src/management/ch8'
                 ]
             },
-            {
-                title: '行銷管理',
-                children: [
-                    '/src/marketing/README.md',
-                    'src/marketing/ch1.md',
-                    'src/marketing/ch2.md',
-                    'src/marketing/ch5.md',
-                    'src/marketing/ch6.md',
-                    'src/marketing/ch7.md',
-                    'src/marketing/ch9.md',
-                ]
-            },
+            // {
+            //     title: '行銷管理',
+            //     children: [
+            //         '/src/marketing/README.md',
+            //         'src/marketing/ch1.md',
+            //         'src/marketing/ch2.md',
+            //         'src/marketing/ch5.md',
+            //         'src/marketing/ch6.md',
+            //         'src/marketing/ch7.md',
+            //         'src/marketing/ch9.md',
+            //     ]
+            // },
             {
                 title: '經濟學',
                 children: [
@@ -67,7 +67,7 @@ module.exports = {
                 children: [
                     '/src/researchMethod/researchMethod'
                 ]
-            },
+            }
         ]
     }
 };
