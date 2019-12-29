@@ -1,6 +1,6 @@
 # 首頁
 
-[![Build Status](https://travis-ci.com/GraysonChiang/tw-address.svg?branch=master)](https://travis-ci.com/GraysonChiang/tw-address)
+[![Build Status](https://travis-ci.com/GraysonChiang/note.svg?branch=master)](https://travis-ci.com/GraysonChiang/note)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 ## Install
