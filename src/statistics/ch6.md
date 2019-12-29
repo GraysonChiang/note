@@ -12,10 +12,13 @@
 * $x$ `1` 次試驗成功次數
 * 表示
 $$X \sim Ber(p) , x = 0,1$$
+
 * 公式
 $$ P(X=x) = p^x , (1-P)^{1-x} $$
+
 * 期望值
 $$ E(X^2) = 1 \times p^2 + O^2 \times (1-p) = p $$
+
 * 變異數
 $$ Var(X) = E(X^2) - E(X)^2 $$
 $$  = P - P^2 $$
@@ -44,10 +47,11 @@ $$ Var(X) = n \times P(1-P) $$
     * $N$ 物中有 $S$ 個屬成功類，另 $N-S$ 個屬失敗類
 * 公式
     * 式中的符號 $N$ , $S$ , $n$ , $x$ 皆同於前文所述，另外 $x$ 的範圍是從 $Max \lbrace 0,n-(N-S) \rbrace$ 至 $Min \lbrace n,S \rbrace$
+
 $$ P(X = x) =  { c_x^s c_{n-x}^{N-s}   \over  c_n^N }$$
 
 * 期望值：令 $X$ 代表超幾何隨機變數
-$$ E(X) = n \times p $$
+    $$ E(X) = n \times p $$
 
 * 變異數：令 $X$ 代表超幾何隨機變數
 $$ Var(X) = { N - n \over N-1} np(1-p) $$
@@ -101,6 +105,7 @@ $$X \sim NB(r,p)$$
 
 * 公式
 $$ P(X=x) = C_{r-1}^{x-1} \times P^r \times (1 - P)^{x-r} $$
+
 $$  C_{r-1}^{x-1} \times P \times  P^{r-1} \times (1 - P)^{x-r} , x=0,1,2,...n $$
 
 * 期望值
@@ -108,11 +113,3 @@ $$ E(X) = {r \over p }$$
 
 * 變異數
 $$ Var(X) =  { r \times q \over p^2 }$$
-
-
-@flowstart
-st=>start: Start
-e=>end: End
-
-st->e
-@flowend
