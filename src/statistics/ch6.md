@@ -106,3 +106,12 @@ $$ E(X) = {r \over p }$$
 
 * 變異數
 $$ Var(X) =  { r \times q \over p^2 }$$
+
+
+
+@flowstart
+process=>inputoutput: Inputoutput
+e=>end: End
+
+process->e
+@flowend

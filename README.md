@@ -34,3 +34,4 @@ vuepress build
 [official](https://v1.vuepress.vuejs.org/)
 [Community](https://vuepress.github.io/zh/)
 [Awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+[VuePress 搭建博客的那些坑](https://tomben.me/posts/2019/11/04/set-up-a-blog-with-vuepress.html)
