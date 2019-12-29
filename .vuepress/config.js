@@ -40,12 +40,12 @@ module.exports = {
                 title: '行銷管理',
                 children: [
                     '/src/marketing/',
-                    'src/marketing/CH1',
-                    'src/marketing/CH2',
-                    'src/marketing/CH5',
-                    'src/marketing/CH6',
-                    'src/marketing/CH7',
-                    'src/marketing/CH9',
+                    'src/marketing/ch1',
+                    'src/marketing/ch2',
+                    'src/marketing/ch5',
+                    'src/marketing/ch6',
+                    'src/marketing/ch7',
+                    'src/marketing/ch9',
                 ]
             },
             {

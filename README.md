@@ -27,6 +27,7 @@ vuepress build
 
 ## Plugins
 * [vuepress-plugin-mathjax](https://vuepress.github.io/zh/plugins/mathjax/#%E5%AE%89%E8%A3%85)
+* [vuepress-plugin-flowchart](https://flowchart.vuepress.ulivz.com/)
 
 
 ## Recerence
