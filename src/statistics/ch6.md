@@ -77,6 +77,7 @@ $$ Var(X) = { 1 - p \over p^2 } $$
 * 表示
 $$X \sim Poisson(\lambda t)$$
 
+
 * 公式
     * 式中 $\lambda$ 表示在某特定區間內某事件所發生的平均次數，而 $e = 2.71828$
     $$ f(X=x) = { e^{-\lambda t}  \times {\lambda t}^x \over x !}  , x = 0,1,2,3, ...$$
@@ -89,6 +90,7 @@ $$ Var(X) =  \lambda $$
 *  與二項分配的關係
 
 <br>
+
 
 ## 負二項分配
 
@@ -108,11 +110,9 @@ $$ E(X) = {r \over p }$$
 $$ Var(X) =  { r \times q \over p^2 }$$
 
 
-
 @flowstart
-process=>subroutine: Subroutine
+st=>start: Start
 e=>end: End
 
-process->e
+st->e
 @flowend
-

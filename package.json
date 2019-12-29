@@ -3,9 +3,14 @@
     "dependencies": {
         "@vuepress/plugin-pwa": "^1.2.0",
         "markdown-it-katex": "^2.0.3",
-        "vuepress": "0.14.9",
+        "vuepress": "^1.2.0",
         "vuepress-plugin-flowchart": "^1.4.3",
-        "vuepress-plugin-mathjax": "^1.2.8"
+        "vuepress-plugin-mathjax": "^1.2.8",
+        "vuepress-theme-day": "^0.1.9",
+        "vuepress-theme-dew": "^1.0.2",
+        "vuepress-theme-koala": "^1.0.0-alpha.44.3",
+        "vuepress-theme-track": "^1.0.12",
+        "vuepress-theme-yubisaki": "^3.1.9"
     },
     "scripts": {
         "build": "vuepress build ."
