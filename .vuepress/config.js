@@ -1,17 +1,11 @@
 module.exports = {
     title: '企業管理碩士班筆記',
     head: [
-        // ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css'}],
         ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'}],
     ],
     base: '/note/',
     description: '臺北大學 商學院企業管理碩士班 107',
-    plugins: ['mathjax'],
-    // markdown: {
-        // config: md => {
-            // md.use(require('markdown-it-katex'));
-        // },
-    // },
+    plugins: ['mathjax','flowchart'],
     themeConfig: {
         nav: [
             {text: 'Github', link: 'https://github.com/GraysonChiang/note'}
