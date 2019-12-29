@@ -16,11 +16,11 @@
 
 ### 排列
 * 自一個含有 $m$ 元素的集合中，一次抽取 $n$ 個元素（或每抽取一個，抽出不放回，連續抽取 $n$ 個），則共有 $P_n^m$ 個不同排列的樣本組，其排列數為：
-$$ P_n^m = {m! \over (m-n)! }$$
+$$P_n^m = {m! \over (m-n)! }$$
 
 ### 組合
 * 自一個含有 $m$ 元素的集合中，一次抽取 $n$ 個元素，若不考慮 $n$ 個元素被抽中元素的順序，則共有 $C_n^m$ 個不同組合，其組合數為：
-$$ C_n^m = {m! \over n!(m-n)! }$$
+$$C_n^m = {m! \over n!(m-n)! }$$
 
 <br>
 
@@ -28,11 +28,11 @@ $$ C_n^m = {m! \over n!(m-n)! }$$
 
 ### 古典方法
 * 在一有限的樣本空間 $S$ 中，某一事件 $E$ 的機率 $P(E)$ 定義
-$$ P(E) = {n(E) \over n(S) }$$ 
+$$P(E) = {n(E) \over n(S) }$$
 
 ### 相對次數方法
 * 一隨機試驗重複進行 $N$ 次，若事件 $E$ 出現 $n$ 次，則其機率 $P(E)$ 約為
-$$ P(E) \approx { n \over N }$$ 
+$$P(E) \approx { n \over N }$$
 
 ### 主觀方法
 * 事件 $E$ 的主觀機率 $P(E) =$ 個人對事件 $E$ 發生的信任度
@@ -43,13 +43,13 @@ $$ P(E) \approx { n \over N }$$
 
 ### 事件機率的性質
 * 事件機率的基本性質
-$$ P(E) = \sum_{e_i \in E} P(e_i) $$ 
-$$ \downarrow $$
-$$ P(S) = \sum_{e_i \in S} P(e_i) = 1$$ 
-$$ \downarrow $$
-$$ P( \emptyset ) = 0 $$ 
-$$ \downarrow $$
-$$ 0 \leq  P(E) \leq 1 $$ 
+$$P(E) = \sum_{e_i \in E} P(e_i)$$
+$$\downarrow$$
+$$P(S) = \sum_{e_i \in S} P(e_i) = 1$$
+$$\downarrow$$
+$$P( \emptyset ) = 0$$
+$$\downarrow$$
+$$0 \leq  P(E) \leq 1$$
 
 ### 事件的運算＆機率法則
   * 聯合事件與餘事件
@@ -62,7 +62,7 @@ $$ 0 \leq  P(E) \leq 1 $$
 
      * 餘事件法則：若 $A$ 為任一事件，$A^c$ 為其餘事件，則
 		$$P(A) = 1 - P(A^c)$$
-		$$ or $$
+		$$or$$
 		$$P(A^c) = 1 - P(A)$$
 
 <br>
@@ -70,23 +70,23 @@ $$ 0 \leq  P(E) \leq 1 $$
 ## 條件機率與獨立事件
 ### 條件機率
 * 已知 $B$ 事件發生之下，另一事件 $A$ 發生的機率，稱為在 $B$ 發生條件下，$A$ 的條件機率，記作 $P(A|B)$
-$$ P(A|B) =  {P(A \bigcap B) \over P(B)  }$$
+$$P(A|B) =  {P(A \bigcap B) \over P(B)  }$$
 
 * 乘法法則：設 $A、Ｂ$ 為任意兩事件，則聯合事件 $A \bigcap B$ 的機率（聯合機率）為
-$$ P(A \bigcap B) =  { P(A) \times P(B|A)  }$$
+$$P(A \bigcap B) =  { P(A) \times P(B|A)  }$$
 
 ### 獨立事件
 * 獨立事件：設 $A$、$B$ 為任意兩事件，若 
-$$ P(A|B) =  P(A) $$
-$$ or $$
-$$ P(B|A) =  P(B) $$
+$$P(A|B) =  P(A)$$
+$$or$$
+$$P(B|A) =  P(B)$$
 則 $A$ 與 $B$ 兩事件獨立，否則即為`相依`
 
 * 乘法法則：設 $A$、$B$ 為獨立兩事件，則
-$$ P(A \bigcap B) =  P(A) \times P(B|A) $$
-$$ =  P(A) \times P(B) $$
+$$P(A \bigcap B) =  P(A) \times P(B|A)$$
+$$=  P(A) \times P(B)$$
 
 ## 貝氏定理
 * `事前機率 + 額外資訊(條件機率的形式) = 事後機率`
-$$ P(A|B)  = { P(A) \times P(B|A)  \over P(B) } $$
+$$P(A|B)  = { P(A) \times P(B|A)  \over P(B) }$$
 

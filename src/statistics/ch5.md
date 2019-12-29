@@ -61,8 +61,8 @@ $$\int_a^b \int_c^d f(x,y) \times dy \times dx = 1$$
 
 
 #### 邊際機率分配
-$$g(x)  = \int_y f(x,y) \times dy  $$
-$$h(y)  = \int_x f(x,y) \times dx  $$
+$$g(x)  = \int_y f(x,y) \times dy$$
+$$h(y)  = \int_x f(x,y) \times dx$$
 
 #### 條件機率&分配獨立性
 * 設 $X$ 與 $Y$ 為兩個獨立連續隨機變數，則
