@@ -65,11 +65,11 @@ $$X \sim Geo(p)$$
     
 * 期望值
     * 令 $X$ 代表幾何分佈的隨機變數
-$$E(X) = {1 \over p }$$
+$$E(X) =  { \mu } = {q \over p } ={ 1 - p \over p }$$
 
 * 變異數
     * 令 $X$ 代表幾何分佈的隨機變數
-$$Var(X) = { 1 - p \over p^2 }$$
+$$Var(X) = { \sigma^2 } = { q \over p^2} = { 1 - p \over p^2 }$$
 
 <br>
 
