@@ -129,3 +129,15 @@ $$P(|X- \mu| < k \sigma) \geq 1 - { 1 \over k^2 } , k > 1$$
    $$Var(X_1 + X_2+ ... + X_n) = Var(X_1) + Var(X_2) + ... + Var(X_n)$$
     
 ### 共變數
+
+
+
+## 補充
+* PDF：概率密度函数（probability density function）
+    * 在数学中，连续型随机变量的概率密度函数（在不至于混淆时可以简称为密度函数）是一个描述这个随机变量的输出值，在某个确定的取值点附近的可能性的函数。
+
+* PMF：概率质量函数（probability mass function)
+    * 在概率论中，概率质量函数是离散随机变量在各特定取值上的概率。
+
+* CDF：累积分布函数 (cumulative distribution function)
+    * 又叫分布函数，是概率密度函数的积分，能完整描述一个实随机变量X的概率分布。
