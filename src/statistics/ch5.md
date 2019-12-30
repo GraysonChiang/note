@@ -22,6 +22,9 @@ $$f(x_i) = P(X = x_i)$$
     * 機率密度曲線以下所涵蓋的總面積等於 1
     * $P(a \leq X \leq b) =$ 機率密度曲線下，介於 $a$ 與 $b$ 之間的面積
     * 對於 $X$ 之所有可能值的範圍而言 $f(x) \geq 0$
+    * 公式
+    $$Pr(a \leq X \leq b ) = \int_a^b f(x) \times dx$$
+    
 <br>
 <br>
 
@@ -130,14 +133,15 @@ $$P(|X- \mu| < k \sigma) \geq 1 - { 1 \over k^2 } , k > 1$$
     
 ### 共變數
 
-
+<br>
+<br>
 
 ## 補充
-* PDF：概率密度函数（probability density function）
-    * 在数学中，连续型随机变量的概率密度函数（在不至于混淆时可以简称为密度函数）是一个描述这个随机变量的输出值，在某个确定的取值点附近的可能性的函数。
+* PDF：機率密度函數（probability density function）
+    * 連續行型隨機變數的機率密度函數（簡稱為`密度函數`）是一個描述這個隨機變數的輸出值，在某個確定的取值点附近的可能性的函數。
 
-* PMF：概率质量函数（probability mass function)
-    * 在概率论中，概率质量函数是离散随机变量在各特定取值上的概率。
+* PMF：機率質量函數（probability mass function)
+    * 是`離散隨機變數`在各特定取值上的機率
 
-* CDF：累积分布函数 (cumulative distribution function)
-    * 又叫分布函数，是概率密度函数的积分，能完整描述一个实随机变量X的概率分布。
+* CDF：累積分佈函數 (cumulative distribution function)
+    * 又叫分佈函数，是機率密度函數的積分，能完整描述隨機變數 $X$ 的機率分佈
