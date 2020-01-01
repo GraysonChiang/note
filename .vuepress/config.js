@@ -55,6 +55,12 @@ module.exports = {
                 ]
             },
             {
+                title: '資訊系統管理',
+                children: [
+                    'src/mis/mis',
+                ]
+            },
+            {
                 title: '統計學',
                 children: [
                     'src/statistics/ch4',
