@@ -55,7 +55,7 @@ module.exports = {
                 ]
             },
             {
-                title: '資訊系統管理',
+                title: '管理資訊系統',
                 children: [
                     'src/mis/mis',
                 ]
