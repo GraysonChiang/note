@@ -121,7 +121,22 @@ $$f(x|y) = g(x) \times h(y)$$
     $$\sigma^2 = E[X^2] - [E(X)]^2$$
     $$\downarrow$$
     $$\sum_{x\in S(X)} x^2 \times f(x) - \mu^2$$
-    
+* `隨機變數`的標準差
+$$Sd(X)= \sqrt{Var(X)} = \sigma$
+* $X$ 與 $Y$ 的聯合分佈 $f(x,y)$ 之 $X$ 與 $Y$ 的變異數
+    * $X$ 的變異數
+    $$Var(X) = \sum_x \sum_y (x- \mu_x )^2 \times f(x,y)$$
+    $$= \sum_x (x- \mu_x)^2 \times g(x)$$
+    因為 $g(x)= \sum_y \times f(x,y)$
+    * $Y$ 的變異數
+    $$Var(Y) = \sum_x \sum_y (y- \mu_y )^2 \times f(x,y)$$
+    $$= \sum_y (y- \mu_y)^2 \times h(y)$$
+    因為 $h(y)= \sum_x \times f(x,y)$
+* 補充
+    * $X$ 與 $Y$ 聯合分佈 $f(x,y)$
+    * $X$ 與 $Y$ 邊際分佈 $g(x)$ & $h(y)$
+    * $X$ 與 $Y$ 期望值 $\mu_x$ & $\mu_y$
+
 <br>
 
 ## 切比雪夫定理
