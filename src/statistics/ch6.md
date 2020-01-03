@@ -8,12 +8,12 @@
 
 |  |表示法|公式<br> $f(x)$|期望值 <br>$E(X)$|變異數 <br>$Var(X)$|
 |:---|:---: |:---:|:---:|:---:|
-|二項分佈|$X \sim Bin(n,p)$<br>$x = 0,1$|$p^x , (1-P)^{1-x}$|$p$|$p(1-p)$|
-|白努力|$X \sim Ber(p)$<br>$x = 0,1$|$p^x , (1-P)^{1-x}$|$p$|$E(X^2) - E(X)^2$ <br> $= P - P^2$ <br>$= P \times (1-P)$|
-|超幾何||$P(X = x) =  { c_x^s c_{n-x}^{N-s}   \over  c_n^N }$|$n \times p$|${ N - n \over N-1} np(1-p)$|
-|幾何|$X \sim Geo(p)$|$q^{x-1} p$ <br> $x = 1,2,...$|${ \mu } = {q \over p } ={ 1 - p \over p }$|${ \sigma^2 } = { q \over p^2} = { 1 - p \over p^2 }$|
-|Poisson|$X \sim Poisson(\lambda t)$|${ e^{-\lambda t}  \times {\lambda t}^x \over x !}$ <br> $x = 0,1,2,3, ...$|$\lambda$|$\lambda$|
-|負二項|$X \sim NB(r,p)$|$C_{r-1}^{x-1} \times P^r \times (1 - P)^{x-r}$ <br> $C_{r-1}^{x-1} \times P \times  P^{r-1} \times (1 - P)^{x-r}$ <br> $x=0,1,2,...n$|${r \over p}$|${r \times q} \over p^2$|
+|二項分佈|$X \sim Bin(n,p)$<br>$x = 0,1$|$C_x^n \times P^x \times (1-P)^{n-x} ,x=0,1,2,...n$|$p$|$p(1-p)$|
+|白努力|$X \sim Ber(p)$<br>$x = 0,1$|$P(X=x) = p^x , (1-P)^{1-x}$|$p$|$E(X^2) - E(X)^2$ <br> $= P - P^2$ <br>$= P \times (1-P)$|
+|超幾何||$P(X = x) =  { c_x^s c_{n-x}^{N-s}   \over  c_n^N }$|$E(X) = n \times p$|${ N - n \over N-1} np(1-p)$|
+|幾何|$X \sim Geo(p)$|$f(x) = q^{x-1} p$ <br> $x = 1,2,...$|${ \mu } = {q \over p } ={ 1 - p \over p }$|${ \sigma^2 } = { q \over p^2} = { 1 - p \over p^2 }$|
+|Poisson|$X \sim Poisson(\lambda t)$|$f(X=x) = { e^{-\lambda t}  \times {\lambda t}^x \over x !}$ <br> $x = 0,1,2,3, ...$|$\lambda$|$\lambda$|
+|負二項|$X \sim NB(r,p)$|$C_{r-1}^{x-1} \times P^r \times (1 - P)^{x-r}$ <br> $C_{r-1}^{x-1} \times P \times  P^{r-1} \times (1 - P)^{x-r}$ <br> $x=0,1,2,...n$|$r \over p$|${r \times q} \over p^2$|
 
 
 
