@@ -2,6 +2,24 @@
 
 ![](https://github.com/GraysonChiang/note/blob/master/src/statistics/images/ch6.jpg?raw=true)
 
+
+## 表格整理
+
+
+|  |表示法|公式<br> $f(x)$|期望值 <br>$E(X)$|變異數 <br>$Var(X)$|
+|:---|:---: |:---:|:---:|:---:|
+|二項分佈|$X \sim Ber(p)$<br>$x = 0,1$|$P(X=x) = p^x , (1-P)^{1-x}$|$p$|$p(1-p)$|
+
+
+<!-- |白努力||||| -->
+<!-- |超幾何||||| -->
+<!-- |幾何||||| -->
+<!-- |Poisson||||| -->
+<!-- |負二項||||| -->
+
+
+
+
 ## 分佈區分
 * 離散分佈
   * 二項分佈
