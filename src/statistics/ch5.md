@@ -122,7 +122,8 @@ $$f(x|y) = g(x) \times h(y)$$
     $$\downarrow$$
     $$\sum_{x\in S(X)} x^2 \times f(x) - \mu^2$$
 * `隨機變數`的標準差
-$$Sd(X)= \sqrt{Var(X)} = \sigma$
+$$Sd(X)= \sqrt{Var(X)} = \sigma$$
+
 * $X$ 與 $Y$ 的聯合分佈 $f(x,y)$ 之 $X$ 與 $Y$ 的變異數
     * $X$ 的變異數
     $$Var(X) = \sum_x \sum_y (x- \mu_x )^2 \times f(x,y)$$
