@@ -63,6 +63,7 @@ module.exports = {
             {
                 title: '統計學',
                 children: [
+                    'src/statistics/ch3',
                     'src/statistics/ch4',
                     'src/statistics/ch5',
                     'src/statistics/ch6',
